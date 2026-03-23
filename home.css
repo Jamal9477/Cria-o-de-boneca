@@ -1,0 +1,68 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+#boneco {
+  margin: 20px auto;
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.parte {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* PARTES */
+.cabeca {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  top: 0;
+}
+
+.olhos {
+  width: 60px;
+  height: 10px;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.olhos div {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.cabelo {
+  width: 130px;
+  height: 60px;
+  top: -10px;
+  border-radius: 60px 60px 0 0;
+}
+
+.corpo {
+  width: 120px;
+  height: 140px;
+  top: 120px;
+  border-radius: 20px;
+}
+
+/* CONTROLES */
+.controls {
+  margin-top: 20px;
+}
+
+select, input {
+  margin: 5px;
+  padding: 5px;
+}
